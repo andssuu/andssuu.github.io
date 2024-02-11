@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Anderson Santos
-title: Analista Judiciário do Tribunal Regional Federal da 6ª Região
+title: Analista Judiciário do Tribunal Regional do Trabalho da 6ª Região
 email: andssuu@gmail.com
 website: andssuu.github.io
 
@@ -58,7 +58,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Tribunal Regional Federal da 6ª Região
+        title: Tribunal Regional do Trabalho da 6ª Região
         link: https://www.trt6.jus.br
         link_text: trt6.jus.br
         sub_title: Analista Judiciário - Tecnologia da Informação
