@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Anderson Santos
+title: Analista Judiciário do Tribunal Regional Federal da 6ª Região
+email: andssuu@gmail.com
+website: andssuu.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+twitter_username: Anderso96625672
+github_username:  andssuu
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: andssuu
+linkedin_username: andssuu
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -45,76 +45,152 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Sobre
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+              Um rapaz latino-americano <br>
+              sem dinheiro no banco <br>
+              sem parentes importantes <br>
+              e vindo do interior.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
+  - title: Experiência Profissional # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: Tribunal Regional Federal da 6ª Região
+        link: https://www.trt6.jus.br
+        link_text: trt6.jus.br
+        sub_title: Analista Judiciário - Tecnologia da Informação
+        caption: Junho 2023 - Presente
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+                  Alocado na seção de Monitoramento dos Serviços de TIC, atualmente trabalho com o 
+                  monitoramento e a implantação em produção das aplicações regionais, nacionais e PJe.
 
-  - title: Education # Title for the section
+                  Tecnologias: Kubernetes, Ansible, Elasticsearch, Grafana, Zabbix, Fluentd, Prometheus Kibana, Git, Shell script e Python.
+      - layout: left
+        title: Universidade Federal Rural de Pernambuco
+        link: http://ufrpe.br
+        link_text: ufrpe.br
+        sub_title: Analista de Sistemas - Suporte e Rede
+        caption: Janeiro 2019 - 2023
+        description: | # this will include new lines to allow paragraphs
+                Na coordenadoria de Redes e Conectividade, trabalhei na gerência e monitoramento dos ativos de rede.
+              
+                Na coordenadoria de Sistemas Computacionais, tive a oportunidade de trabalhar com gestão e automação de aplicações.
+
+                Tecnologias: switch L2 e L3 (Cisco, HP e 3Com), Controladora Wi-Fi Cisco, Firewall (Iptables, Fortigate, Juniper), Zabbix, Git, Shell script, Python, Linux, Google Workspace, Kubernetes, Zimbra, Servidores Web e Servidores de Aplicações.
+      - layout: left
+        title: Ello Político
+        link: http://ellopolitico.com.br
+        link_text: ellopolitico.com.br
+        sub_title: Desenvolvedor Full Stack
+        caption: Outubro 2016 - 2017
+        description: | # this will include new lines to allow paragraphs
+                Desenvolvimento web (frontend e backend).
+
+                Tecnologias: Django, Python, Git, HTML, CSS, Javascript.
+      - layout: left
+        title: Simbiose Ventures
+        link: https://www.simbioseventures.com
+        link_text: simbioseventures.com.br
+        sub_title: Estágio Acadêmico
+        caption: 2016
+        description: | # this will include new lines to allow paragraphs
+                Desenvolvimento web (frontend e backend).
+
+                Tecnologias: Django, Python, Git, HTML, CSS, Javascript.
+
+  - title: Formação Acadêmica # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Mestrado em Informática Aplicada
+        caption: 2020 - 2022
+        sub_title: Universidade Federal Rural de Pernambuco
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+                Classificação do comportamento de bovinos por meio de sensores inerciais: uma abordagem com aprendizagem profunda.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+                Orientador: Prof. Dr. Glauco Estácio Gonçalves
 
-  - title: A Little More About Me
+                Coorientador: Prof. Dr. Victor Wanderley Costa de Medeiros
+
+      - layout: left
+        title: Bacharelado em Ciência da Computação
+        caption: 2012 - 2016
+        sub_title: Universidade Federal Rural de Pernambuco
+        description: | # this will include new lines to allow paragraphs
+                Método para identificação da veracidade em impressões digitais utilizando características de alta dimensão.
+
+                Orientador: Luis Filipe Alves Pereira
+
+                Aluno laureado (8.43)
+
+  - title: Concursos # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: TRT-13
+        caption: 2022
+        sub_title: Analista Judiciário - Tecnologia da Informação
+        description: | # this will include new lines to allow paragraphs
+                Órgão: Tribunal Regional do Trabalho da 13ª Região
+
+                20º colocado
+      - layout: left
+        title: TRT-6
+        caption: 2018
+        sub_title: Analista Judiciário - Tecnologia da Informação
+        description: | # this will include new lines to allow paragraphs
+                Órgão: Tribunal Regional do Trabalho da 6ª Região
+
+                16º colocado
+      - layout: left
+        title: UFRPE
+        caption: 2018
+        sub_title: 'Analista de Tecnologia da Informação/Área: Suporte e Rede'
+        description: | # this will include new lines to allow paragraphs
+                Órgão: Universidade Federal Rural de Pernambuco
+
+                2º colocado
+      - layout: left
+        title: Compesa
+        caption: 2018
+        sub_title: Analista de Gestão - Tecnologia da Informação
+        description: | # this will include new lines to allow paragraphs
+                Órgão: Companhia Pernambucana de Saneamento
+
+                1º colocado
+      - layout: left
+        title: TJPE
+        caption: 2017
+        sub_title: Analista Judiciário - Analista de Sistemas
+        description: | # this will include new lines to allow paragraphs
+                Órgão: Tribunal da Justiça de Pernambuco
+
+                25º colocado
+      - layout: left
+        title: Embasa
+        caption: 2017
+        sub_title: Analista de Saneamento - Analista de Tecnologia da Informação (Desenvolvimento)
+        description: | # this will include new lines to allow paragraphs
+                Meu primeiro concurso de TI.
+
+                Órgão: Empresa Baiana de Águas e Saneamento S.A.
+
+                17º colocado
+  - title: Um pouco mais sobre mim
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Além da computação, alguns dos meus outros interesses e hobbies são:
+      - Música 🎸
+      - Leitura 📚
+      - Educação financeira 🏦
+      - Astronomia 🔭🪐
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: 🖖🏻
 
 # Build settings
 remote_theme: sproogen/resume-theme
